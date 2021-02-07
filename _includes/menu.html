@@ -1,18 +1,18 @@
-{%- assign entries = site.data.menu.entries -%}
+{%-  assign entries = site.data.menu.entries  -%}
 
 <div class="row">
   <div class="col-lg-8 col-lg-offset-2">
     <div class="menu">
       <ul>
-          {%- for item in entries -%}
-            {% if item.title and item.url %}
-              {% if item.base_url %}
+          {%-  for item in entries  -%}
+            {%- if item.title and item.url -%}
+              {%- if item.base_url -%}
                 <li><a href="{{ item.base_url }}/{{ item.url }}">{{ item.title }}</a></li>
-              {% else %}
+              {%- else -%}
                 <li><a href="{{ "/" | absolute_url }}{{ item.url }}">{{ item.title }}</a></li>
-              {% endif %}
-            {% endif %}
-          {%- endfor -%}
+              {%- endif -%}
+            {%- endif -%}
+          {%-  endfor  -%}
       </ul>
     </div>
   </div>
