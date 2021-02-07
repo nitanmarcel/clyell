@@ -150,6 +150,7 @@ Forked from [gildasio/clyell](https://github.com/gildasio/clyell) and editor wit
 - [x] Gem compatible
 - [x] Responsible
 - [x] Highlights for code
+- [x] Font Awesome support
 
 ### Characteristics
 
@@ -207,6 +208,7 @@ entries: # A list of menu entries
     title: home # The title of the menu item
     url: "/" # The url path of the menu item.
     base_url: "example.com" # The base url of the path mentioned above. If not specified the website's absolute url will be used
+    fa: fa-home # Font Awesome icon to use for the menu item: https://fontawesome.com/icons?d=gallery&m=free  
 
 #
 
