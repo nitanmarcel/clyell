@@ -1,6 +1,7 @@
 entries:
   - title: home
     url: "/"
+    fa: fa-home
   - title: blog
     url: blog
   - title: "*casts"
