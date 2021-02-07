@@ -18,7 +18,7 @@
 
 It's just one more [jekyll](https://github.com/jekyll/jekyll) theme. Maybe it's has some appearance like a linux console. :)
 
-Forked from [gildasio/clyell](https://github.com/gildasio/clyell) and editor with some new changes.
+Forked from [gildasio/clyell](https://github.com/gildasio/clyell) and edited with some new changes.
 
 [Bootstrap](http://getbootstrap.com/) was added to turn responsible. Thanks, [@magnunleno](https://github.com/magnunleno).
 
@@ -80,7 +80,7 @@ clyell:
 
 # Customize the menu
 
-# Menu configuration values  are located in _data/menu.yml
+# Menu configuration values are located in _data/menu.yml
 
 entries: # A list of menu entries
     title: home # The title of the menu item
@@ -91,7 +91,7 @@ entries: # A list of menu entries
 
 # Customize the social links
 
-# Social configuration values  are located in _data/social.yml
+# Social configuration values are located in _data/social.yml
 # Just the nickname handler is required: eg: github: gjuniioor will be automatically generated as https://github.com/gjuniioor
 
 handlers: # list of handlers
