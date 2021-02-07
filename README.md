@@ -6,7 +6,7 @@
 
 * [About](#about)
 * [Features](#features)
-* [Characteristics](Characteristics))
+* [Characteristics](Characteristics)
 * [Screenshots](Screenshots)
 * [Installation](#Installation)
     * [Forking the repo](#forking-the-repo)
