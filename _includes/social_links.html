@@ -1,0 +1,86 @@
+{%- assign social = site.data.social.handlers -%}
+
+
+{% if social.dribbble %}
+    <p>
+        printf(<a href="https://www.dribbble.com/{{ social.dribbble | cgi_escape | escape  }}"><span class="string">https://dribbble.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.facebook %}
+    <p>
+        printf(<a href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape  }}"><span class="string">https://facebook.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.flickr %}
+    <p>
+        printf(<a href="https://www.flickr.com/photos{{ social.flickr | cgi_escape | escape  }}"><span class="string">https://flickr.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.github %}
+    <p>
+        printf(<a href="https://www.github.com/{{ social.github | cgi_escape | escape  }}"><span class="string">https://github.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.instagram %}
+    <p>
+        printf(<a href="https://www.instagram.com/{{ social.instagram | cgi_escape | escape  }}"><span class="string">https://instagram.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.linkedin %}
+    <p>
+        printf(<a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape  }}"><span class="string">https://linkedin.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.pinterest %}
+    <p>
+        printf(<a href="https://www.pinterest.com/{{ social.pinterest | cgi_escape | escape  }}"><span class="string">https://pinterest.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.twitter %}
+    <p>
+        printf(<a href="https://www.twitter.com/{{ social.twitter | cgi_escape | escape  }}"><span class="string">https://twitter.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.youtube %}
+    <p>
+        printf(<a href="https://www.youtube.com/{{ social.youtube | cgi_escape | escape  }}"><span class="string">https://youtube.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.youtube_channel %}
+    <p>
+        printf(<a href="https://www.youtbe.com/channel/{{ social.youtube_channel | cgi_escape | escape  }}"><span class="string">https://youtube_channel.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.telegram %}
+    <p>
+        printf(<a href="https://www.t.me/{{ social.telegram | cgi_escape | escape  }}"><span class="string">https://telegram.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.microdotblog %}
+    <p>
+        printf(<a href="https://www.micro.blog.com/{{ social.microdotblog | cgi_escape | escape  }}"><span class="string">https://microdotblog.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.reddit %}
+    <p>
+        printf(<a href="https://www.reddit.com/{{ social.reddit | cgi_escape | escape  }}"><span class="string">https://reddit.com/%s\n</span></a>, nick);
+    </p>
+{% endif %}
+
+{% if social.email %}
+    <p>
+        printf(<a href="mailto:{{ social.email.nick }}@{{ social.email.domain }}.{{ social.email.ext }}"><span class="string">%s\x40{{ social.email.domain }}\x2e\\\b{{ social.email.ext }}</span></a>)
+    </p>
+{% endif %}
