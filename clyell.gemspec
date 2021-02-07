@@ -18,4 +18,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-tidy", "~> 0.2.2"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
   spec.add_runtime_dependency "jekyll-manager", "~> 0.1.1"
+  spec.add_runtime_dependency "jekyll-postfiles", "~> 3.1"
 end
