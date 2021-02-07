@@ -7,10 +7,10 @@ baseurl: "/clyell/"
 url: "https://gjuniioor.github.io"
 
 # Theme config
-
-bye_message: "Thx!"
-disqus: gjuniioor
-nick: "gjuniioor"
+clyell:
+  disqus: gjuniioor
+  nick: "gjuniioor"
+  bye_message: "Thx!"
 
 # Build settings
 theme: clyell
