@@ -1,9 +1,11 @@
 entries:
   - title: home
     url: "/"
-    fa: fa-home
+    icon: fa fa-home
   - title: blog
     url: blog
+    icon: fas fa-blog
   - title: "*casts"
     url: casts
     base_url: https://example.com
+    icon: fas fa-podcast
