@@ -1,0 +1,8 @@
+entries:
+  - title: home
+    url: "/"
+  - title: blog
+    url: blog
+  - title: "*casts"
+    url: casts
+    base_url: https://example.com
