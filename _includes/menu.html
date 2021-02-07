@@ -7,9 +7,9 @@
           {%-  for item in entries  -%}
             {%- if item.title and item.url -%}
               {%- if item.base_url -%}
-                <li><a href="{{ item.base_url }}/{{ item.url }}" class="fa {{ item.fa }}">{{ item.title }}</a></li>
+                <li><a href="{{ item.base_url }}/{{ item.url }}" class="{{ item.icon }}">{{ item.title }}</a></li>
               {%- else -%}
-                <li><a href="{{ "/" | absolute_url }}{{ item.url }}" class="fa {{ item.fa }}">{{ item.title }}</a></li>
+                <li><a href="{{ "/" | absolute_url }}{{ item.url }}" class="{{ item.icon }}">{{ item.title }}</a></li>
               {%- endif -%}
             {%- endif -%}
           {%-  endfor  -%}

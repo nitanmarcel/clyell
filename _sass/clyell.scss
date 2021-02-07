@@ -221,3 +221,14 @@ blockquote {
 margin: unset;
     font-size: 12px;
 }
+
+// Font Awesome spacing tweak
+.fa::before {
+    letter-spacing: 3px;
+}
+.fas::before {
+    letter-spacing: 3px;
+}
+.fab::before {
+    letter-spacing: 3px;
+}
