@@ -14,9 +14,11 @@ nick: "gjuniioor"
 
 # Build settings
 theme: clyell
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-tidy
 
 markdown: kramdown
 permalink: /:categories/:title/
